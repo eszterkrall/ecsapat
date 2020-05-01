@@ -29,8 +29,8 @@ body {
     font-weight: 500;
     font-size: 36px;
     line-height: 1;
-    background-color: #ffffff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     vertical-align: bottom;
     overflow-y: auto;
     overflow-x: hidden;
@@ -46,7 +46,7 @@ h1 {
 }
 
 a:link, a:visited {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
