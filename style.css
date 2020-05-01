@@ -1,18 +1,22 @@
 @font-face {
-    font-family: Azab;
-    font-weight:500;
-    font-style:normal;
-    font-display:auto;
-    src: url(azabreg.woff2);
+    font-family: Radio;
+    font-weight: 500;
+    font-style: normal;
+    font-display: auto;
+    src: url(radiogrotesk.otf);
 }
 
 body {
-    font-family: Azab;
-    font-weight: 900;
+    font-family: Radio;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1;
     background-color: #ffffff;
     color: #000;
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 h1 {
@@ -57,4 +61,5 @@ a:hover, a:active {
 
 canvas {
     vertical-align: bottom;
+    cursor: cell;
 }
