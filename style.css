@@ -54,6 +54,7 @@ a:hover, a:active {
 }
 
 #info {
+    text-decoration: underline;
     position: fixed;
     top: 180px;
     left: 48px;
