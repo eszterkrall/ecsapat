@@ -4,7 +4,7 @@
     font-style:normal;
     font-display:auto;
     src: url(azabreg.woff2);
-    }
+}
 
 body {
     font-family: Azab;
@@ -20,6 +20,15 @@ h1 {
     top: 0px;
     left: 48px;
     z-index: 1;
+}
+
+a:link, a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #000;
 }
 
 #info {
@@ -47,5 +56,5 @@ h1 {
 }
 
 canvas {
-    vertical-align: middle;
+    vertical-align: bottom;
 }
