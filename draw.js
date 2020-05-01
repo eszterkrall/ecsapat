@@ -15,7 +15,7 @@ let currentX = null
 let currentY = null
 
 let i = 0
-const images = ["img/11.jpg", "img/13.jpg", "img/27.jpg",
+const images = ["img/24.jpg", "img/25.jpg", "img/26.JPG", "img/27.jpg",
                 "img/28.jpg", "img/29.jpg", "img/30.jpg", "img/31.jpg",
                 "img/32.jpg", "img/33.jpg"].map(src => {
     const image = document.createElement("img")
