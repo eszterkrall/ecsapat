@@ -1,10 +1,10 @@
 const canvasTag = document.querySelector("canvas")
 
-canvasTag.width = window.innerWidth * 2
-canvasTag.height = window.innerHeight * 2
+canvasTag.width = window.outerWidth * 2
+canvasTag.height = window.outerHeight * 2
 
-canvasTag.style.width = window.innerWidth + "px"
-canvasTag.style.height = window.innerHeight + "px"
+canvasTag.style.width = window.outerWidth + "px"
+canvasTag.style.height = window.outerHeight + "px"
 
 const context = canvasTag.getContext("2d")
 context.scale(2, 2)
